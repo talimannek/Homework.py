@@ -1,0 +1,13 @@
+grades=[[5,3,3,5,4],[2,2,2,3],[4,5,5,2],[4,4,3],[5,5,5,4,5]]
+students={'Johnny','Bilbo','Steve','Khendrik','Aaron'}
+u1,u2,u3,u4,u5=grades
+sa1=sum(u1)/len(u1)
+sa2=sum(u2)/len(u2)
+sa3=sum(u3)/len(u3)
+sa4=sum(u4)/len(u4)
+sa5=sum(u5)/len(u5)
+list_students=list(students)
+list_po_al=sorted(list_students)
+list_sa=[sa1,sa2,sa3,sa4,sa5]
+dict_sa=dict(zip(list_po_al,list_sa))
+print(dict_sa)
